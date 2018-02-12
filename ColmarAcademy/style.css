@@ -1,0 +1,116 @@
+/* Universal Styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+li a {
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 80px;
+  border: 1px solid black;
+
+
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+header h2 {
+  flex-grow: 1;
+  height: 32px;
+
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  margin-left: 16px;
+}
+
+nav {
+  margin-right: 24px;
+}
+
+.logo {
+  margin-left: 24px;
+}
+
+
+/* Banner */
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+.column {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column.left {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 12px;
+}
+
+.column.right {
+  width: 40%;
+  margin-left: 12px;
+  text-align: left;
+
+
+}
+
+/* Main */
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-image {
+  max-width: 35%;
+}
+
+.main-image img {
+  max-width: 100%;
+}
+
+.main-caption {
+  max-width: 65%;
+}
